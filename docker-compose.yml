@@ -1,0 +1,6 @@
+loadbalancer:
+  image: jaarandaz/nginx
+  ports:
+    - "80:80"
+  volumes:
+    - ./sites-enabled:/etc/nginx/sites-enabled
